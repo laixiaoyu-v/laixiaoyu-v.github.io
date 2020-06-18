@@ -1,0 +1,20 @@
+class:
+  class_name: 友情链接
+  link_list:
+    1:
+      name: Cheung's Blog
+      link: https://b.wjj.wtf/
+      avatar: https://b.wjj.wtf/wp-content/uploads/2020/03/%E5%A4%B4%E5%83%8F%E9%80%8F%E6%98%8E%E9%80%9A%E9%81%93.png
+      descr: 懒人挖机
+    2:
+      name: 知趣' Blog
+      link: https://zhiqu.best/
+      avatar: https://zhiqu.best/wp-content/themes/Kratos-3.0.9/assets/img/gravatar.png
+      descr: 一个小菜鸡，只会瞎折腾
+    3:
+      name: 风萧萧兮易水寒' Blog
+      link: https://www.fiisi.com/
+      avatar: https://www.fiisi.com/wp-content/uploads/2017/10/IMG_20171027_094802.jpg
+      descr: So bad,Yet so good. 
+
+ 
