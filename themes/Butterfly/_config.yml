@@ -34,7 +34,7 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  fab fa-github: https://github.com/xxxxx || Github
+  fab fa-github: https://github.com || Github
   fas fa-envelope: mailto:xxxxxx@gmail.com || Email
   fa fa-rss: /atom.xml || RSS鏈接
 

@@ -3,18 +3,6 @@ title: 相册
 date: 2020-06-18 12:28:03
 type: "photo"
 ---
-测试
-
-{% gallery %}
-![](https://i.loli.net/2019/12/25/Fze9jchtnyJXMHN.jpg)
-![](https://i.loli.net/2019/12/25/ryLVePaqkYm4TEK.jpg)
-![](https://i.loli.net/2019/12/25/gEy5Zc1Ai6VuO4N.jpg)
-![](https://i.loli.net/2019/12/25/d6QHbytlSYO4FBG.jpg)
-![](https://i.loli.net/2019/12/25/6nepIJ1xTgufatZ.jpg)
-![](https://i.loli.net/2019/12/25/E7Jvr4eIPwUNmzq.jpg)
-![](https://i.loli.net/2019/12/25/mh19anwBSWIkGlH.jpg)
-![](https://i.loli.net/2019/12/25/2tu9JC8ewpBFagv.jpg)
-{% endgallery %}
-
-
-测试
+<div class="gallery-group-main">
+{% galleryGroup '壁紙' '收藏的一些壁紙' '/photo/wallpaper' https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/2020/06/19/51bd3c.png %}
+</div>
