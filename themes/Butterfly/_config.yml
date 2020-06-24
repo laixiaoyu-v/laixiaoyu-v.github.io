@@ -8,11 +8,11 @@
 
 menu:
   主页: / || fas fa-home
-  时间轴: /archives/ || fas fa-archive
+  时光机: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
   相册: /photo/ || fas fa-list
-  友情链接: /link/ || fas fa-link
+  友人帐: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
 
 # Code Blocks (代碼相關)

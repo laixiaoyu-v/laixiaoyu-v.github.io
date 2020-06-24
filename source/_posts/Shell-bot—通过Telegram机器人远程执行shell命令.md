@@ -2,7 +2,8 @@
 layout: shell-bot—
 title: 通过Telegram机器人远程执行shell命令
 date: 2020-05-25 15:10:08
-tags: 日常折腾
+categories: 日常折腾
+tags: tg-bot
 cover: https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/2020/06/06/89031d.png
 ---
 <h2 style="text-align: center;"><b>关于Shell-bot</b></h2>

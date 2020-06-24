@@ -2,7 +2,8 @@
 title: 利用gclone复制或同步googledrive资源
 abbrlink: ee8270f4
 date: 2020-04-01 07:51:59
-tags:
+categories: 日常折腾
+tags: Gclone
 cover: https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blogimage_2020-03-19_13-26-38.png
 ---
 <h2>前言</h2>

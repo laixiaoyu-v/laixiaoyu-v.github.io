@@ -2,7 +2,8 @@
 title: 一个Goindex的魔改版本
 abbrlink: a3ab42cc
 date: 2020-05-27 15:10:31
-tags: 日常折腾
+categories: 日常折腾
+tags: Goindex
 cover: https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/73118788_p0_master1200.jpg
 ---
 <h2 style="text-align: center;"><strong>关于Goindex</strong></h2>

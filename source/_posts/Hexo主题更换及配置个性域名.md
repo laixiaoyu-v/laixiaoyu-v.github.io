@@ -1,7 +1,8 @@
 ---
 abbrlink: 86b3a32e
 date: 2020-03-21 15:10:08
-tags: 日常折腾
+categories: 日常折腾
+tags: hexo
 cover: https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/20200606195854.png
 ---
 <h2 style="text-align: center;">前言</h2>

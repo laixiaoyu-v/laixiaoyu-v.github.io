@@ -1,6 +1,8 @@
 ---
 abbrlink: beebccd2
 date: 2020-03-19 15:10:08
+categories: 日常折腾
+tags: hexo
 urlname: 2
 cover: https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/20200606194054.png
 ---

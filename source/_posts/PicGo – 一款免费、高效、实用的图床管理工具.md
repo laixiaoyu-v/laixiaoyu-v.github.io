@@ -1,7 +1,8 @@
 ---
 abbrlink: 95a2046f
 date: 2020-03-22 15:10:08
-tags: 实用工具
+categories: 实用工具
+tags: 图床
 cover: https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/20200606195421.png
 ---
 <h2 style="text-align: center;"><strong>前言</strong></h2>

@@ -1,7 +1,8 @@
 ---
 abbrlink: 58ebd63
 date: 2020-03-23 15:10:08
-tags: 日常折腾
+tags: Termux
+categories: 日常折腾
 cover: https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/20200606195744.png
 ---
 <h2 style="text-align: center;">前言</h2>

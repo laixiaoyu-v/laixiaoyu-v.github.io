@@ -1,6 +1,8 @@
 ---
 abbrlink: 8240d80f
 date: 2020-03-25 15:10:08
+categories: 日常折腾
+tags: Linux
 cover: https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/20200606200146.png
 ---
 <h4>首先安装 Python 必要的依赖包：</h4>

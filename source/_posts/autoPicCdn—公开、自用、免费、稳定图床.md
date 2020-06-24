@@ -1,7 +1,8 @@
 ---
 abbrlink: 5c74a5cd
 date: 2020-04-24 15:10:08
-tags: 实用工具
+categories: 实用工具
+tags: 图床
 cover: https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/20200606200408.png
 ---
 <!-- wp:paragraph -->
