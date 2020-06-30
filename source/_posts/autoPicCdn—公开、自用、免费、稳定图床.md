@@ -17,13 +17,15 @@ cover: https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/20200606200408.pn
 <p>过程我就不演示了，过程可以参考我的这篇文章：<a href="https://likexy.me/?p=105">传送门</a></p>
 <p>接下来我们去autoPicCdn的GitHub项目地址下载源码：<a href="https://github.com/peng4740/autoPicCdn">传送门</a></p>
 <p>解压下载的源码并修改 up.php 里的变量</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="generic">error_reporting(0);
+```<code>
+error_reporting(0);
 date_default_timezone_set("PRC");
 define("REPO","此处填写你的GitHub仓库名");//必须是下面用户名下的公开仓库
 define("USER","此处填写你的GitHub用户名");//必须是当前GitHub用户名
 define("MAIL","mail@foxmail.com");//
-define("TOKEN","此处填写在GitHub上获取的token");//https://github.com/settings/tokens 去这个页面生成一个有写权限的token（write:packages前打勾）</pre>
-<p>&nbsp;</p>
+define("TOKEN","此处填写在GitHub上获取的token");//https://github.com/settings/tokens 去这个页面生成一个有写权限的token（write:packages前打勾）
+ ```
+
 <p>然后将 index.html 和 up.php 上传到你的网站空间、vps或者虚拟主机上。</span></span></span></span></p>
 <p>访问你的网站空间、vps或者虚拟主机即可：</p>
 <p><img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/2020/04/24/66cb4d.png" /></p>

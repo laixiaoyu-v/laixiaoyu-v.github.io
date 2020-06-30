@@ -10,7 +10,6 @@ cover: https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/20200606195854.pn
 
 这次我接着讲一下Hexo的主题更换及配置个性域名
 
-<!-- more -->
 
 <h2 style="text-align: center;"><strong>主题更换 </strong></h2>
 
@@ -56,8 +55,10 @@ cover: https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/20200606195854.pn
 <span style="color: #ff0000;"><strong>注意：</strong><span style="color: #000000;">修改时破坏原有结构或多添加标点字符都有可能造成博客的崩溃，所以修改前注意备份以便还原</span></span>
 
 修好好后重新生成静态页并部署：
-<pre class="EnlighterJSRAW" data-enlighter-language="null">hexo g
-hexo d</pre>
+```<code>
+hexo g
+hexo d
+```
 &nbsp;
 
 部署成功后刷新你的博客就能看见效果：
@@ -86,8 +87,10 @@ hexo d</pre>
 &nbsp;
 
 添加完CNAME 文件后重新生成静态页并部署到GitHub：
-<pre class="EnlighterJSRAW" data-enlighter-language="null">hexo g
-hexo d</pre>
+```<code>
+hexo g
+hexo d
+```
 &nbsp;
 
 最后来到你的域名管理平台

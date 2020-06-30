@@ -8,6 +8,7 @@
 
 menu:
   主页: / || fas fa-home
+  说说: /shuoshuo/ || fas fa-heartbeat
   时光机: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open

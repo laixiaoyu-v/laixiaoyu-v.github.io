@@ -9,27 +9,31 @@ cover: https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/20200606200146.pn
 <pre class="EnlighterJSRAW" data-enlighter-language="null">yum -y groupinstall development
 yum install -y zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel</pre>
 <h4></h4>
-<!-- more -->
 <h4>然后下载安装包：</h4>
 这里有两种方法
 <ol>
  	<li>在<a href="https://link.jianshu.com/?t=https%3A%2F%2Fwww.python.org%2F" target="_blank" rel="nofollow noopener noreferrer">python官网</a>下载源码格式的安装包，然后通过winscp或者xftp上传到你的服务器。</li>
  	<li>使用wget命令联网在线下载：
-<pre class="EnlighterJSRAW" data-enlighter-language="null">wget https://www.python.org/ftp/python/3.8.2/Python-3.8.2.tgz</pre>
+```<code>
+wget https://www.python.org/ftp/python/3.8.2/Python-3.8.2.tgz
+```
 &nbsp;</li>
 </ol>
 <h4>安装：</h4>
 <ol>
  	<li>解压并进入目录：
-<pre class="EnlighterJSRAW" data-enlighter-language="null">tar xf Python-3.8.2.tgz
-cd Python-3.8.2</pre>
+```<code>
+tar xf Python-3.8.2.tgz
+cd Python-3.8.2
+```
 &nbsp;</li>
  	<li>进行编译安装（我们将python3.8.2安装在/usr/local/python3目录下）
-<pre class="EnlighterJSRAW" data-enlighter-language="null">./configure --prefix=/usr/local/python3
-make &amp;&amp; make install</pre>
+```<code>
+./configure --prefix=/usr/local/python3
+make &amp;&amp; make install
+```
 &nbsp;</li>
  	<li>验证是否安装
-<pre class="EnlighterJSRAW" data-enlighter-language="null">python3</pre>
-&nbsp;</li>
-</ol>
-&nbsp;
+```<code>
+python3
+```

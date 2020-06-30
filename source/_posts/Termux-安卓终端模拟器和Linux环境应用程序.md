@@ -32,11 +32,15 @@ cover: https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/20200606195744.pn
 <strong>实际操作：</strong>
 
 首先更新一下软件包和软件源：
-<pre class="EnlighterJSRAW" data-enlighter-language="null">apt update
-apt upgrade</pre>
+```<code>
+apt update
+apt upgrade
+```
 安装Nodejs和Git：
-<pre class="EnlighterJSRAW" data-enlighter-language="null">apt install git
-apt install nodejs</pre>
+```<code>
+apt install git
+apt install nodejs
+```
 剩下的参考我之前的文章：
 
 <span style="color: #0000ff;"><a class="post-title" style="color: #0000ff;" href="https://b.laixiaoyu.cf/posts/beebccd2.html">记一次Hexo博客的搭建过程。</a></span>
@@ -55,23 +59,30 @@ apt install nodejs</pre>
 <strong>实际操作：</strong>
 
 安装openssh：
-<pre class="EnlighterJSRAW" data-enlighter-language="null">apt install openssh</pre>
+```<code>
+apt install openssh
+```
 打开端口服务
-<pre class="EnlighterJSRAW" data-enlighter-language="null">sshd</pre>
+```<code>
+sshd
+```
 获取用户名
 
 （其实用户名是可以随意填的，因为Termux是单用户系统。即使你登陆时带上了用户名，Termux也会忽略该用户名，所以用户名获取只是走流程）
-<pre class="EnlighterJSRAW" data-enlighter-language="null">whoami</pre>
+```<code>
+whoami
+```
 设置ssh密码
-<pre class="EnlighterJSRAW" data-enlighter-language="null">passwd</pre>
+```<code>
+passwd
+```
 查看ip
-<pre class="EnlighterJSRAW" data-enlighter-language="null">ifconfig</pre>
+```<code>
+ifconfig
+```
 <span style="color: #ff0000;"><strong>端口（默认是8022）</strong></span>
 
 接着就是电脑端打开ssh工具输入ip、用户名、密码、端口（8022）就可以了
 
-&nbsp;
 <h2 style="text-align: center;"><strong>最后吐槽</strong></h2>
 折腾了半天其实好像也没有榨干我的古董安卓机的剩余价值！！！
-
-&nbsp;

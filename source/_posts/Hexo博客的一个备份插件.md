@@ -30,15 +30,21 @@ date: 2020-06-19 12:48:11
 &nbsp;
 <h2 id="具体操作" style="text-align: center;">具体操作</h2>
 首先检测一下hexo的版本：
-<pre><code class="lang-hexo">hexo version</code></pre>
+```<code>
+hexo version
+```
 然后按照不同版本使用以下命令进行安装
 
 &nbsp;
 
 如果你的 Hexo 版本是 2.x.x，则使用以下命令安装：
-<pre><code class="lang-hexo">npm install hexo-git-backup@0.0.91 --save</code></pre>
+```<code>
+npm install hexo-git-backup@0.0.91 --save
+```
 如果你的 Hexo 版本是3.x.x则使用这条命令：
-<pre><code class="lang-hexo">npm install hexo-git-backup --save</code></pre>
+```<code>
+npm install hexo-git-backup --save
+```
 安装好插件去创建一个githui创库或者在已部署了hexo的仓库下创建一个分支
 
 我为了节约资源就直接创建一个仓库分支吧，
@@ -52,32 +58,40 @@ date: 2020-06-19 12:48:11
 然后打开博客目录下的<span style="color: #ff0000;">_config.yml<span style="color: #000000;">文件</span></span>
 
 在最下方添加：
-<pre><code>backup:
+```<code>
     type: git
     repository:
        github: git@github.com:xxx/xxx.github.io.git,branchName
-       coding: git@github.com:xxx/xxx.github.io.git,branchName</code></pre>
-<span style="color: #ff0000;">注释：</span>
-
+       coding: git@github.com:xxx/xxx.github.io.git,branchName
+```
 xxx表示你的github用户名（共四处）
 
 branchName表示你的仓库的分支名
-<pre></pre>
 <h2 style="text-align: center;">使用</h2>
 直接执行：
-<pre><code>hexo backup </code></pre>
+```<code>
+hexo backup 
+```
 或者：
-<pre><code>hexo b</code></pre>
+```<code>
+hexo b
+```
 这样就大功告成把hexo博客源文件备份到GitHub仓库中了
 <h2 style="text-align: center;">恢复备份</h2>
 首先安装hexo
-<pre><code>npm install hexo-cli -g</code></pre>
+```<code>
+npm install hexo-cli -g
+```
 然后克隆远程仓库：
-<pre class="chroma"><code class="language-shell" data-lang="shell">git clone 你的仓库（分支）地址 blog</code></pre>
+```<code>
+git clone 你的仓库（分支）地址 blog
+```
 进入克隆好的hexo源文件目录：
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> blog</code></pre>
+```<code>
+cd blog
+```
 利用package.json安装相关插件：
-<pre class="chroma"><code class="language-shell" data-lang="shell">npm install</code></pre>
-这样就恢复了hexo博客了，又可以xiezhuo愉快的写作了。
-
-&nbsp;
+```<code>
+npm install
+```
+这样就恢复了hexo博客了，又可以愉快的写作了。

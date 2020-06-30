@@ -26,15 +26,18 @@ gclone是rclone的一个魔改版本。
 &nbsp;
 <h2 style="text-align: center;">安装及配置</h2>
 安装gclone：
-<pre class="EnlighterJSRAW" data-enlighter-language="null">bash &lt;(wget -qO- https://git.io/gclone.sh)</pre>
+```<code>
+bash <(wget -qO- https://git.io/gclone.sh)
+```
 查看版本信息：
-<pre class="EnlighterJSRAW" data-enlighter-language="null">gclone version</pre>
-&nbsp;
+```<code>
+gclone version
+```
 
 配置gclone：
-<pre class="EnlighterJSRAW" data-enlighter-language="null">gclone config
-</pre>
-&nbsp;
+```<code>
+gclone config
+```
 
 前面提到过gclone是要配合folderclone或aoturclone的service accounts使用
 
@@ -43,7 +46,8 @@ gclone是rclone的一个魔改版本。
 当出现 <code>service_account_file_path</code> 时，填写<span style="color: #ff0000;">accounts</span>的目录路径
 
 我这里就把folderclone的accounts目录放在root目录下演示一次配置过程：
-<pre class="EnlighterJSRAW" data-enlighter-language="null">[root ~]# gclone config
+```<code>
+[root ~]# gclone config
 2020/04/01 14:11:45 NOTICE: Config file "/root/.config/rclone/rclone.conf" not found - using defaults
 No remotes found - make a new one
 n) New remote
@@ -231,11 +235,13 @@ q) Quit config
 e/n/d/r/c/s/q&gt; q
 #选q退出
 [root ~]# 
-</pre>
+```
 这样就配置完了！！！
 <h2 style="text-align: center;">使用</h2>
 复制：
-<pre class="EnlighterJSRAW" data-enlighter-language="null">gclone copy gc:{目录1的id} gc:{目录2的id}  --drive-server-side-across-configs -v</pre>
+```<code>
+gclone copy gc:{目录1的id} gc:{目录2的id}  --drive-server-side-across-configs -v
+```
 <strong><span style="color: #ff0000;">注释：</span></strong>
 
 <span style="color: #ff0000;"><strong>gc是配置gclone时的name</strong></span>
@@ -253,19 +259,16 @@ e/n/d/r/c/s/q&gt; q
 &nbsp;
 
 同步：
-<pre class="EnlighterJSRAW" data-enlighter-language="null">gclone sync gc:{目录1的id} gc:{目录2的id}  --drive-server-side-across-configs -v</pre>
+```<code>
+gclone sync gc:{目录1的id} gc:{目录2的id}  --drive-server-side-across-configs -v
+```
 <strong>用法和复制基本相同，用于同步两个目录。</strong>
 
 &nbsp;
 
 本地上传：
-<pre class="EnlighterJSRAW" data-enlighter-language="null">gclone copy 本地文件或目录路径 gc:{目录的id} -v</pre>
-&nbsp;
-
+```<code>
+gclone copy 本地文件或目录路径 gc:{目录的id} -v
+```
 其他用法与rclone相同，用法包括但不限于本文提到的这几个，请自行挖掘。
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
