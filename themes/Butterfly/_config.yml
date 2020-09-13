@@ -8,7 +8,7 @@
 
 menu:
   主页: / || fas fa-home
-  说说: /shuoshuo/ || fas fa-heartbeat
+  啰嗦: /shuoshuo/ || fas fa-heartbeat
   时光机: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
@@ -419,7 +419,7 @@ qihu_site_verification:
 
 # theme_color:
 #   enable: true
-#   main: "#49B1F5"
+#   main: "#000000"
 #   paginator: "#00c4b6"
 #   button_hover: "#FF7242"
 #   text_selection: "#00c4b6"
@@ -429,8 +429,8 @@ qihu_site_verification:
 #   code_foreground: "#F47466"
 #   code_background: "rgba(27, 31, 35, .05)"
 #   toc_color: "#00c4b6"
-#   blockquote_padding_color: "#49b1f5"
-#   blockquote_background_color: "#49b1f5"
+#   blockquote_padding_color: "#000000"
+#   blockquote_background_color: "#000000"
 
 # The top_img settings of home page
 # default: top img - full screen, site info - middle (默認top_img全屏，site_info在中間)
