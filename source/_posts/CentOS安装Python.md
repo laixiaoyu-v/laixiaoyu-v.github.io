@@ -1,4 +1,5 @@
 ---
+title: CentOS 安装Python
 abbrlink: 8240d80f
 date: 2020-03-25 15:10:08
 categories: 日常折腾

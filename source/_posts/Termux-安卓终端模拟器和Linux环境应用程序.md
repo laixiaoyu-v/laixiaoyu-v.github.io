@@ -1,4 +1,5 @@
 ---
+title: Termux-安卓终端模拟器和Linux环境应用程序
 abbrlink: 58ebd63
 date: 2020-03-23 15:10:08
 tags: Termux

@@ -1,4 +1,5 @@
 ---
+title: autoPicCdn— 公开、自用、免费、稳定图床
 abbrlink: 5c74a5cd
 date: 2020-04-24 15:10:08
 categories: 实用工具

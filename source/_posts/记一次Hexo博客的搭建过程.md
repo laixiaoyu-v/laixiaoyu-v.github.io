@@ -1,4 +1,5 @@
 ---
+title: 记一次Hexo博客的搭建过程。
 abbrlink: beebccd2
 date: 2020-03-19 15:10:08
 categories: 日常折腾
