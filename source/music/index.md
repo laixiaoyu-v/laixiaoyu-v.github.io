@@ -1,11 +1,11 @@
 ---
-title: 音乐
+title: 那些年，我们一起听过的音乐。 
 date: 2020-06-18 12:28:03
 type: "music"
 ---
-{% aplayer 
-"我本人" 
-"吴雨霏" 
-"https://lai.xiaoyu.workers.dev/0:/%E9%9F%B3%E4%B9%90/Kary%20Ng%20-%20Wo%20Ben%20Ren.mp3" 
-"https://cn-south-17-aplayer-46154810.oss.dogecdn.com/hikarunara.jpg" 
-%}
+## <center>**似水流年**</center>
+
+<div class="gallery-group-main">
+{% galleryGroup '我本人' '我本人非草木' '/music/songlist1' https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/2020/10/24/937410.png %}
+</div>
+
