@@ -1,11 +1,8 @@
 ---
-title: test
-aplayer: true
-abbrlink: d87f7e0c
-date: 2020-10-23 14:49:47
-tags:
+title: 音乐
+date: 2020-06-18 12:28:03
+type: "music"
 ---
-测试
 {% aplayer 
 "我本人" 
 "吴雨霏" 
