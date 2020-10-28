@@ -7,7 +7,7 @@ type: "songlist2"
 {
     "autoplay": true,
     "mode": "random",
-    "listmaxheight": "300px",
+    "listmaxheight": "400px",
     "music": [
         {
             "title": "Timeless",

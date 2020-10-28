@@ -7,7 +7,7 @@ type: "songlist1"
 {
     "autoplay": true,
     "mode": "random",
-    "listmaxheight": "300px",
+    "listmaxheight": "400px",
     "music": [
         {
             "title": "我本人",

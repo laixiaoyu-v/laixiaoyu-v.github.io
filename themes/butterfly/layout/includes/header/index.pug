@@ -16,18 +16,6 @@ if page.top_img !== false
   else
     - var top_img = page.top_img || theme.default_top_img
 
-  if theme.douban
-    - var doubanExist = false
-    if is_current('/movies/', [strict])
-      - var top_img = theme.douban.movies_img !== false ? theme.douban.movies_img || theme.default_top_img : false
-      - doubanExist = true
-    else if is_current('/books/', [strict])
-      - var top_img = theme.douban.books_img !== false ? theme.douban.books_img || theme.default_top_img : false
-      - doubanExist = true
-    else if is_current('/games/', [strict])
-      - var top_img = theme.douban.games_img !== false ? theme.douban.games_img || theme.default_top_img : false
-      - doubanExist = true
-
   if top_img !== false
     - var imgSource = top_img && top_img.indexOf('/') !== -1 ? `background-image: url(${url_for(top_img)})` : `background: ${top_img}`
     - var bg_img = top_img ? imgSource : ''
@@ -47,14 +35,14 @@ header#page-header(class=isHomeClass style=bg_img)
       include ./post-info.pug
     else if is_home() 
       #site-info
-        h1#site_title=site_title
-        #site_subtitle
+        h1#site-title=site_title
+        #site-subtitle
           span#subtitle
         if(theme.social)
           #site_social_icons
             !=fragment_cache('social', function(){return partial('includes/header/social')})
-      #scroll_down
+      #scroll-down
         i.fas.fa-angle-down.scroll-down-effects
     else
-      #page_site-info
-        h1#site_title=site_title
+      #page-site-info
+        h1#site-title=site_title
