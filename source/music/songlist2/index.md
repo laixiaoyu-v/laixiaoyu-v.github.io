@@ -47,7 +47,48 @@ type: "songlist2"
             "url": "https://lai.xiaoyu.workers.dev/0:/%E9%9F%B3%E4%B9%90/Rameses%20B%20-%20Mountains%20(feat.%20Veela).mp3",
             "pic": "https://lai.xiaoyu.workers.dev/0:/%E9%9F%B3%E4%B9%90/%E5%B0%81%E9%9D%A2/photo_2020-10-28_16-54-17.jpg",
             "lrc": "1.txt"
+        },
+        
+        {
+            "title": "Horizons",
+            "author": "Feint",
+            "url": "https://lai.xiaoyu.workers.dev/0:/%E9%9F%B3%E4%B9%90/Feint%20-%20Horizons.mp3",
+            "pic": "https://lai.xiaoyu.workers.dev/0:/%E9%9F%B3%E4%B9%90/%E5%B0%81%E9%9D%A2/photo_2020-10-29_17-02-45.jpg",
+            "lrc": "1.txt"
+        },
+
+        {
+            "title": "Yours Truly (feat. Danyka Nadeau)",
+            "author": "Mr FijiWiji",
+            "url": "https://lai.xiaoyu.workers.dev/0:/%E9%9F%B3%E4%B9%90/Mr%20FijiWiji%20-%20Yours%20Truly%20(feat.%20Danyka%20Nadeau).mp3",
+            "pic": "https://lai.xiaoyu.workers.dev/0:/%E9%9F%B3%E4%B9%90/%E5%B0%81%E9%9D%A2/photo_2020-10-29_17-02-54.jpg",
+            "lrc": "1.txt"
+        },
+
+        {
+            "title": "Valkyrie (feat. Laura Brehm)",
+            "author": "Varien",
+            "url": "https://lai.xiaoyu.workers.dev/0:/%E9%9F%B3%E4%B9%90/Varien%20-%20Valkyrie%20(feat.%20Laura%20Brehm).mp3",
+            "pic": "https://lai.xiaoyu.workers.dev/0:/%E9%9F%B3%E4%B9%90/%E5%B0%81%E9%9D%A2/photo_2020-10-29_17-03-03.jpg",
+            "lrc": "1.txt"
+        },
+
+        {
+            "title": "The Journey",
+            "author": "Feint",
+            "url": "https://lai.xiaoyu.workers.dev/0:/%E9%9F%B3%E4%B9%90/Feint%20-%20The%20Journey.mp3",
+            "pic": "https://lai.xiaoyu.workers.dev/0:/%E9%9F%B3%E4%B9%90/%E5%B0%81%E9%9D%A2/photo_2020-10-29_17-03-25.jpg",
+            "lrc": "1.txt"
+        },
+
+        {
+            "title": "The Pink Fields (2013 Remaster)",
+            "author": "Doxx, Feint",
+            "url": "https://lai.xiaoyu.workers.dev/0:/%E9%9F%B3%E4%B9%90/Doxx,%20Feint%20-%20The%20Pink%20Fields%20(2013%20Remaster).mp3",
+            "pic": "https://lai.xiaoyu.workers.dev/0:/%E9%9F%B3%E4%B9%90/%E5%B0%81%E9%9D%A2/photo_2020-10-29_17-03-35.jpg",
+            "lrc": "1.txt"
         }
+
     ]
 }
 {% endaplayerlist %}
