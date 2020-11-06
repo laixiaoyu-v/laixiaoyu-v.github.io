@@ -43,7 +43,7 @@ copy:
 #   icon: link || the description
 social:
   fab fa-github: https://github.com || Github
-  fas fa-envelope: mailto:xxxxxx@gmail.com || Email
+  fas fa-envelope: laixiaoyu@tutanota.com || Email
   fa fa-rss: /atom.xml || RSS鏈接
 
 
