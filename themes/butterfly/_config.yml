@@ -43,8 +43,7 @@ copy:
 #   icon: link || the description
 social:
   fab fa-github: https://github.com || Github
-  fas fa-envelope: laixiaoyu@tutanota.com || Email
-  fa fa-rss: /atom.xml || RSS鏈接
+  fas fa-envelope: mailto:laixiaoyu@tutanota.com || Email
 
 
 # search (搜索)
@@ -617,7 +616,7 @@ aside:
     enable: true
     description:
     button:
-      icon: fab fa-github
+      icon: fa fa-rss
       text: 我本人
       link: /about
   card_announcement:
