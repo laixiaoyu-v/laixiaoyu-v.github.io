@@ -110,5 +110,5 @@ aplayer:
 backup:
     type: git
     repository:
-       github: git@github.com:laixiaoyu-v/laixiaoyu-v.github.io.git,backup
-       coding: git@github.com:laixiaoyu-v/laixiaoyu-v.github.io.git,backup
+       github: git@github.com:laixiaoyu-v/hexo-backup.git,master
+       coding: git@github.com:laixiaoyu-v/hexo-backup.git,master
