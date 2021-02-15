@@ -160,85 +160,85 @@ Hexo是一款基于Node.js的静态博客框架，依赖少易于安装使用，
 <h1 style="text-align: center;">搭建Hexo</h1>
 安装Node.js和Git ：
 
-<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 144713.png" alt="" /> 没什么难度无脑下一步</p>
+<p><img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 144713.png" alt="" /> 没什么难度无脑下一步</p>
 <p>&nbsp;</p>
 <p>输入：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git --version</span><br><span class="line">node -v</span><br></pre></td></tr></table></figure>
 <p>检查一下是否安装成功：</p>
-<img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 145338.png" alt="" />
+<img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 145338.png" alt="" />
 
 <p>&nbsp;</p>
 <p>因为考虑到NPM是国外的东西，也就是说他的源是国外的</p>
 <p>我们可以把他的源改成国内淘宝的源这样安装速度会快些</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm config set registry https:&#x2F;&#x2F;registry.npm.taobao.org –global </span><br><span class="line">npm config set disturl https:&#x2F;&#x2F;npm.taobao.org&#x2F;dist –global</span><br></pre></td></tr></table></figure>
-<img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 150726.png" alt="" />
+<img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 150726.png" alt="" />
 
 <p>&nbsp;</p>
 <p>安装hexo组件：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
-<img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 151025.png" alt="" />
+<img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 151025.png" alt="" />
 
 
 <p>本地安装部署hexo：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog               &#x2F;&#x2F;blog是我的是我自定义的目录</span><br></pre></td></tr></table></figure>
-<img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 151353.png" alt="" />
+<img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 151353.png" alt="" />
 
 <p>这时候你就可以看见这个目录下的已经创建了你的博客：</p>
-<img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 151704.png" alt="" />
+<img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 151704.png" alt="" />
 
 
 <p>进入这个目录并执行：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd blog</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-<p>这时候打开<span style="color: #ff0000;"> <a style="color: #ff0000;" href="http://://localhost:4000" target="_blank" rel="noopener noreferrer">http://localhost:4000</a> </span><br>你就能在本地的4000端口看到你的博客：<br><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 151931.png" alt="" /></p>
+<p>这时候打开<span style="color: #ff0000;"> <a style="color: #ff0000;" href="http://://localhost:4000" target="_blank" rel="noopener noreferrer">http://localhost:4000</a> </span><br>你就能在本地的4000端口看到你的博客：<br><img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 151931.png" alt="" /></p>
 <p>要写博文的话可以用自己喜欢的文本编辑器往blog\source_posts目录下添加 <span style="color: #ff0000;">.md <span style="color: #000000;">文件</span></span></p>
 <p>我就用记事本添加一个测试一下</p>
-<img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 153126.png" alt="" />
+<img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 153126.png" alt="" />
 
 
 <p>添加完后要重新生成静态页并部署到本地：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g </span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-<p>再刷新一下<a href="http://://localhost:4000"><span style="color: #ff0000;">http://localhost:4000</span></a><br><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 154148.png" alt="" /><br>这就是我刚刚添加的测试文章</p>
+<p>再刷新一下<a href="http://://localhost:4000"><span style="color: #ff0000;">http://localhost:4000</span></a><br><img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 154148.png" alt="" /><br>这就是我刚刚添加的测试文章</p>
 <h2 style="text-align: center;">部署到Github</h2>
 首先去github新建一个仓库：
-<img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/20200319210800.png" alt="" />
+<img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/20200319210800.png" alt="" />
 
 
 <p>这里仓库名要按照 <span style="color: #ff0000;">你的github用户名.github.io <span style="color: #000000;">的格式设置：</span></span></p>
-<img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/20200319211423.png" alt="" />
+<img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/20200319211423.png" alt="" />
 
 
 
 <p>仓库创建完成后回到blog目录，编辑 <span style="color: #000000;"><span style="color: #ff0000;">_config.yml </span></span></p>
-<img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 160019.png" alt="" />
+<img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 160019.png" alt="" />
 
 
 
 <p>拉到最下面添加</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">type: git                                               &#x2F;&#x2F;修改为git</span><br><span class="line">repo:     你的仓库地址                                 &#x2F;&#x2F;添加</span><br><span class="line">branch: master                                        &#x2F;&#x2F;添加</span><br></pre></td></tr></table></figure>
 
-<img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 160418.png" alt="" />
-<img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 160742.png" alt="" />
+<img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 160418.png" alt="" />
+<img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 160742.png" alt="" />
 
 
 <p>安装一键部署插件 <span style="color: #ff0000;">hexo-deployer-git</span> 并执行部署 ：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-<img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 161944.png" alt="" />
+<img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 161944.png" alt="" />
 
 
 <p>可以看见他报错了<br>它让我们先执行：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.email &quot;你的GitHub邮箱&quot;</span><br><span class="line">git config --global user.name &quot;你的GitHub用户名&quot;</span><br></pre></td></tr></table></figure>
-<p>我们按它说的执行一下：<br><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/20200319213825.png" alt="" /></p>
+<p>我们按它说的执行一下：<br><img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/20200319213825.png" alt="" /></p>
 <p>再次 <span style="color: #ff0000;">hexo d</span> 部署一下：</p>
-<img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 162922.png" alt="" />
+<img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 162922.png" alt="" />
 
 <p>&nbsp;</p>
 <p>输入你的GitHub账号和密码：</p>
-<img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 163113.png" alt="" />
+<img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 163113.png" alt="" />
 
 <p>Done！部署成功</p>
 <p>刷新一下你的GitHub仓库<br>在浏览器地址栏打开你的GitHub仓库名</p>
-<img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 163206.png" alt="" />
-<img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 163417.png" alt="" />
+<img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 163206.png" alt="" />
+<img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/批注 2020-03-19 163417.png" alt="" />
 
 <p>&nbsp;</p>
 <p>Done！现在你可以把你的GitHub仓库名分享给你的小伙伴</p>
