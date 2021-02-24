@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>记录一次修改Hexo博客的butterfly主题</title>
+      <link href="posts/e5f64b7c/"/>
+      <url>posts/e5f64b7c/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h2 style="text-align: center;"><strong>butterfly主题</strong></h2>butterfly主题是一款简单美观的Hexo主题，本博客也是使用了该主题。<p>若想了解该主题可以前往：</p><ul>     <li><span style="color: #ff0000;"><span style="color: #800000;"><span style="color: #000000;">官方文档：</span> </span><strong> <a style="color: #ff0000;" href="https://butterfly.js.org/posts/21cfbf15/" rel="nofollow">Butterfly Docs</a></strong></span></li>     <li>Github项目地址：<strong> <a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener"><span style="color: #ff0000;">butterfly</span></a></strong></li></ul>文章中修改所使用的<span style="color: #ff0000;">butterfly主题版本为3.6.2<span style="color: #000000;">。不同版本修改的结果可能有所不同。</span></span><p>&nbsp;</p><h2 style="text-align: center;"><strong>简单的修改</strong></h2>修改butterfly主题文件夹下的<span style="color: #ff0000;">_config.yml<span style="color: #000000;">文件，找到默认顶部图设置<span style="color: #ff0000;">default_top_img:</span></span></span>将默认顶部图设置成为透明：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">default_top_img: transparent</span><br></pre></td></tr></table></figure><p>transparent为透明，butterfly Docs中有说明。</p><p>再往下拉找到<span style="color: #ff0000;">background：<span style="color: #000000;">的设置项并填入一张自己喜欢的背景图的链接：</span></span></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">background: url(http:&#x2F;&#x2F;xxxxxx.com&#x2F;xxx.jpg)</span><br></pre></td></tr></table></figure><p>英文括号中的链接为背景图链接请自定义。</p><p>经过这系列的操作顶部图和背景图就会变成同一张图片，也就是你自定义的那张图片。再参考butterfly Docs修改一下效果大概如下：</p><img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/20210224140236.jpg" /><p>&nbsp;</p><p>接下来再修改一下文章文字背景和侧边栏背景的颜色及透明度：</p><p>进入hexo博客的<span class="js-path-segment d-inline-block wb-break-all"><span style="color: #ff0000;">themes/butterfly/source/css/<span style="color: #000000;">文件夹</span></span>下找到名为<span style="color: #ff0000;">var.styl<span style="color: #000000;">的文件</span></span></span></p><p>找到这一段：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">$light-blue &#x3D; $theme-color</span><br><span class="line">$dark-black &#x3D; #000000</span><br><span class="line">$light-grey &#x3D; #EEEEEE</span><br><span class="line">$grey &#x3D; #858585</span><br><span class="line">$white &#x3D; #FFFFFF</span><br><span class="line">$whitesmoke &#x3D; #f5f5f5</span><br><span class="line">$font-black &#x3D; #4C4948</span><br><span class="line">$card-bg &#x3D; $white</span><br><span class="line">$text-highlight-color &#x3D; $font-color</span><br><span class="line">$text-hover &#x3D; $theme-color</span><br><span class="line">$text-bg-hover &#x3D; $theme-color</span><br></pre></td></tr></table></figure><p>把其中的<span style="color: #ff0000;">$white = #FFFFFF <span style="color: #000000;">改为：</span></span></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$white &#x3D; rgba(255,255,255,0.8)</span><br></pre></td></tr></table></figure><p>注释：<span style="color: #00ccff;">255,255,255<span style="color: #000000;">是白色的rgb色码值，也就是文章和侧边栏背景的颜色，可自定义为自己喜欢的。后面的<span style="color: #00ccff;"> 0.8 <span style="color: #000000;">是透明度数值在0到1之间，0为透明1为不透明，根据个人喜好设置。</span></span></span></span></p><p>未设置透明度效果展示：</p><img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/20210224140236.jpg" /><img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/20210224135918.jpg" /><img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/20210224140806.jpg" /><p>已设置透明效果度展示：</p><img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/20210224140209.jpg" /><img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/20210224135722.jpg" /><img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/20210224140807.jpg" /><p>&nbsp;</p><h2 style="text-align: center;"><strong>结语</strong></h2>这只是简单的修改并没有太多技术含量，若想修改更多请参考：<span style="color: #ff0000;"><strong><a style="color: #ff0000;" href="https://butterfly.js.org/posts/21cfbf15/" rel="nofollow">Butterfly Docs</a></strong></span><p>&nbsp;</p><img src="https://cdn.jsdelivr.net/gh/laixiaoyu-v/ImgHosting/blog/173628.jpg" /><p>&nbsp;</p><p><strong>注：</strong></p><ul>     <li><strong>插画来源：<span style="color: #3366ff;"><a style="color: #3366ff;" href="https://www.pixiv.net/" target="_blank" rel="noopener"><span class="has-inline-color has-pale-cyan-blue-color">pixiv</span></a></span></strong></li>     <li><strong>画师：<a href="https://www.pixiv.net/users/10885193" target="_blank" rel="noopener"><span style="color: #ff0000;">Lifeline</span></a></strong></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日常折腾 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>分享几个或许用不到的Github Action</title>
       <link href="posts/2f022b76/"/>
       <url>posts/2f022b76/</url>
