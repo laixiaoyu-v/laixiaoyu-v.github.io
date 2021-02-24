@@ -1307,8 +1307,8 @@ canvas:not(#ribbon-canvas),
   --tab-botton-bg: #f0f0f0;
   --tab-botton-color: #1f2d3d;
   --tab-button-hover-bg: #dcdcdc;
-  --tab-button-active-bg: #fff;
-  --card-bg: #fff;
+  --tab-button-active-bg: rga(0, 0, 0, 0.9);
+  --card-bg: rga(0, 0, 0, 0.9);
   --sidebar-bg: #f6f8fa;
   --btn-hover-color: #ff7242;
   --btn-color: #fff;
@@ -1951,7 +1951,7 @@ blockquote footer cite:before {
   border-color: #ff7242;
 }
 .article-sort-item-time {
-  color: #000;
+  color: #ff7242;
   font-size: 95%;
 }
 .article-sort-item-time time {
@@ -2032,7 +2032,7 @@ blockquote footer cite:before {
 }
 #page .category-lists .category-list .category-list-count {
   margin-left: 0.4rem;
-  color: #000;
+  color: #ff7242;
 }
 #page .category-lists .category-list .category-list-count:before {
   content: '(';
@@ -2358,7 +2358,7 @@ blockquote footer cite:before {
   color: #000;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap {
-  color: #000;
+  color: #ff7242;
   font-size: 90%;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .post-meta-date {
@@ -2383,7 +2383,7 @@ blockquote footer cite:before {
   margin: 0 0.2rem;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a {
-  color: #000;
+  color: #ff7242;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a:hover {
   color: #000;
@@ -2674,7 +2674,7 @@ blockquote footer cite:before {
 #aside-content .aside-list > .aside-list-item .content > time,
 #aside-content .aside-list > .aside-list-item .content > .name {
   display: block;
-  color: #000;
+  color: #ff7242;
   font-size: 85%;
 }
 #aside-content .aside-list > .aside-list-item .content > .title,
